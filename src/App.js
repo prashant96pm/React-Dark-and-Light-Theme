@@ -16,7 +16,7 @@ function App() {
       <div>
         <nav className="nav-bar">
           <h1>Home</h1>
-          <button className="btn" onClick={toggleTheme}
+          <button className="btn" onClick={toggleTheme}>
             Toggle Theme
           </button>
           <br />
