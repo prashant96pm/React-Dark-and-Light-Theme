@@ -14,7 +14,7 @@ function App() {
   return (
     <div className={`App ${isDarkMode ? "dark-theme" : "light-theme"}`}>
       <div>
-        <nav className="nav-bar"
+        <nav className="nav-bar">
           <h1>Home</h1>
           <button className="btn" onClick={toggleTheme}>
             Toggle Theme
