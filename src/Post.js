@@ -10,7 +10,7 @@ const Post = (props) => {
   return (
     <div className={`post ${liked ? "liked-btn" : "like-btn"}`}>
       <hr />
-      <h2>{props.title}</h2>
+      <h2>{props.title}</h2
       <div>
         <i>
           <span>{props.date}</span>
